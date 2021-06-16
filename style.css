@@ -84,15 +84,6 @@ img {
   color: #ffffff;
 }
 
-/*#ProfilePic {
-  background-image: url("../Assets/images/mycatprofile.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 25%;
-  float: left;
-}*/
-
 .Work {
   margin: 20px;
   padding: 50px;
@@ -144,9 +135,15 @@ img {
   font-size: 36px;
 }
 
-/*@media screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
   main {
-    display: table;
-    height: auto;
+    width: 100%;
+  }
+}
+
+/*@media screen and (max-width: 720px) {
+  main {
+    width: 50%;
   }
 }*/
+
