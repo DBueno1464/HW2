@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  padding: 20px;
+  font-family: 'Trebuchet MS';
+  background-color: black;
+  color: #ffffff;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 50px;
+  color: #d9dcd6;
+}
+
+.header nav, .Contact-Me nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans';
+  font-size: 30px;
+}
+
+.header nav ul li  {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.Contact-Me nav ul li {
+  display: inline-block;
+  padding: 50px;
+}
+
+a {
+  color: #ffffff;
+}
+
+p {
+  font-size: 30px;
+}
+
+#Subheading {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+/* Subtitle styling with background image*/
+
+.Subtitle {
+  height: 100px;
+  width: 100%;
+  background-image: url("../Assets/images/subtitle-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.content {
+  width: 100%;
+  display: inline-block;
+
+}
+
+/* this block styles the "About Me" section of the page */
+img {
+  padding: 40px;
+  width: 50%;
+}
+.About-Me {
+  width: 100%;
+  margin: 20px;
+  padding: 50px;
+  height: auto;
+  font-family: 'Gill Sans';
+  color: #ffffff;
+}
+
+/*#ProfilePic {
+  background-image: url("../Assets/images/mycatprofile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 25%;
+  float: left;
+}*/
+
+.Work {
+  margin: 20px;
+  padding: 50px;
+  height: auto;
+  font-family: 'Gill Sans';
+  color: #ffffff;
+}
+
+.Resume {
+  margin: 20px;
+  padding: 50px;
+  height: auto;
+  font-family: 'Gill Sans';
+  color: #ffffff;
+}
+
+.Contact-Me {
+  margin: 20px;
+  padding: 50px;
+  height: auto;
+  font-family: 'Gill Sans';
+  color: #ffffff;
+}
+
+/* Styles the heading of each article*/
+
+.Subtitle h2 {
+  float: right; 
+  margin: 20px;
+}
+
+.About-Me h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.Work h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.Resume h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.Contact-Me h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/*@media screen and (max-width: 960px) {
+  main {
+    display: table;
+    height: auto;
+  }
+}*/
