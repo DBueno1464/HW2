@@ -141,9 +141,9 @@ img {
   }
 }
 
-/*@media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) {
   main {
     width: 50%;
   }
-}*/
+}
 
